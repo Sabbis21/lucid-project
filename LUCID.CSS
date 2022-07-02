@@ -1,0 +1,321 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 100%;
+    height: 600px;
+    background-image: url(./lucid_onepage_source.png);
+}
+.box{
+    
+    width: 90%;   
+    margin: 0px;
+}
+.first{
+    float: left;
+    width: 35%;
+    color: aqua;
+    padding: 15px;
+    margin: 20px;
+    
+}
+.about{
+    float: right;
+    width: 50%;
+    color: rgb(202, 214, 214);
+    padding: 15xpx;
+    margin: 20px;
+   
+}
+ul li{
+    float: left;
+    list-style: none;
+    padding: 4px;
+    margin: 4px;
+}
+ul li:first-child{
+    background: url(./bottom.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    margin-left: 8px;
+}
+ul li:hover{
+    background: url(./bottom.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.col-6{
+    width: 45%;
+    float: left;
+    overflow: hidden;
+    clear: both;
+}
+.col-4{
+    width: 31%;
+}
+.col-3{
+    width: 22%;
+    float: left;
+}
+.box-part{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 40px;
+}
+.point{
+    width: 90%;
+    float: left;
+    margin-top: 15px;
+    padding: 10px;
+}
+.left{
+    width: 40%;
+    float: left;
+    padding: 10px;
+    margin: 5px;
+}
+.left h5{
+    margin-top: 10px;
+    color: rgb(47, 158, 158);
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin: 20px;
+}
+.left h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 42px;
+    margin: 20px;
+    
+    
+}
+.left p{
+    color: rgb(134, 136, 130);
+    font-size: 15px;
+    
+    margin-top: 10px;
+    
+}
+.now{
+    background-color: rgb(49, 49, 253);
+    color: white;
+    padding: 10px 30px;
+    margin-top: 20PX;
+    transition: 1s;
+    line-height: 15px;
+}
+.now:hover{
+    background: transparent;
+    color: rgb(49, 49, 253);
+    outline: 1px solid rgb(49, 49, 253) ;
+}
+.view{
+    color: white;
+    background-color: rgb(97, 91, 91);
+    padding: 10px 30px;
+    margin-top: 20px;
+    transition: 1s;
+    line-height: 15px;
+}
+.view:hover{
+    background: transparent;
+    color: rgb(49, 49, 253);
+    outline: 1px solid rgb(49, 49, 253);
+}
+.right{
+    width: 40%;
+    float: right;
+    
+}
+.second{
+    width: 100%;
+}
+.mobile{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px;
+}
+.mobile h4{
+    color:rgb(49, 49, 253) ;
+    font-style: 18px;
+    letter-spacing: 2px;
+    padding: 5px;
+    margin: 5px;
+}
+.mobile h2{
+    color: black;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding: 5px;
+    margin: 5px;
+    background-image: url(./bottom.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.product{
+    width: 100%;
+}
+.middle2{
+    width: 90%;
+    margin: 30px;
+    padding: 30px;
+}
+
+.fafa i{
+    width: 80px;
+    height: 8opx;
+    line-height: 80px;
+    border: 1px solid rgb(128, 123, 123);
+    border-radius: 50%;
+    color: rgb(51, 51, 155);
+    margin-bottom: 10px;
+    padding-top: 30px;
+    text-align: center;
+   
+}
+.fa-solid i{
+    width: 80px;
+    height: 8opx;
+    line-height: 80px;
+    border: 1px solid rgb(128, 123, 123);
+    border-radius: 50%;
+    color: rgb(51, 51, 155);
+    margin-bottom: 10px;
+    padding-top: 30px;
+    text-align: center;
+   
+}
+.fa-brands i{
+    width: 80px;
+    height: 8opx;
+    line-height: 80px;
+    border: 1px solid rgb(128, 123, 123);
+    border-radius: 50%;
+    color: rgb(51, 51, 155);
+    margin-bottom: 10px;
+    padding-top: 30px;
+    text-align: center;
+}
+.fa-mobile i{
+    width: 80px;
+    height: 8opx;
+    line-height: 80px;
+    border: 1px solid rgb(128, 123, 123);
+    border-radius: 50%;
+    color: rgb(51, 51, 155);
+    margin-bottom: 10px;
+    padding-top: 30px;
+    text-align: center;
+}
+h3{
+    color: black;
+    font-size: 30x;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px;   
+}
+p{
+    text-align: center;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    line-height: 20px;
+}
+.img{
+    float: left;
+    width: 40%;
+   
+    padding: 30px;
+    margin: 30px;
+}
+.dip{
+    width: 40%;
+    float: left;
+    
+    padding: 20px;
+    margin: 30px;
+}
+.dip h3{
+    color:  rgb(109, 109, 238);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px;
+    line-height: 15px;
+    
+}
+.dip h2{
+    color: rgb(12, 11, 11);
+    font-size: 35px;
+    background-image: url(./bottom.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 10px;
+    padding-bottom: 10px;
+
+}
+.dip p{
+    color: rgb(112, 109, 109);
+}
+
+.para span{
+    color: rgb(41, 39, 39);
+     padding: 10px;
+     margin-bottom: 15px; 
+    
+}
+.para img{
+    margin-top: 30px;
+
+}
+.lastpart{
+    width: 100%;
+  
+    padding: 30px;
+    margin-top: 30px;
+}
+.easy{
+    background-color: rgb(223, 215, 215);
+    width: 100%;
+    float: left;
+    padding-right: 15px;
+    margin-top: 8px;
+}
+.super{
+    width: 45%;
+    float: left;
+}
+.super h4{
+    color: rgb(49, 49, 253);
+    font-size: 18px;
+    font-weight: 200;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.super h2{
+    color: rgb(14, 12, 12);
+    font-size: 28px;
+    font-weight: 400;
+    background-image: url(./bottom.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding-bottom: 10px;
+    margin: 10px ;
+}
+.super p{
+    color: rgb(124, 122, 122);
+    font-size: 15px;
+    font-weight: 200;
+}
+.imgalt{
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+    margin: 10px;
+}
